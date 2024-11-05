@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+   font-family: Arial, sans-serif;
+  color: hsl(257.84deg 38.95% 18.63%);
+}
+
+header{
+  text-align: center;
+  background-color: hsl(254.69deg 55.06% 82.55%);
+  padding-top: 80px;
+  font-size: 400%;
+  border: 1px solid hsl(264.12deg 100% 61.96%);
+}
+ #logo{
+  height: 60px;
+  font-size: 150px;
+ }
+#leftside{
+  margin-top: 10px;
+    border: 1px solid white;
+  width: 30%;
+  float: left;
+ margin-left: 10%;
+}
+#rightside{
+  margin-top: 10px;
+  border: 1px solid white;
+  width: 30%;
+  float: right;
+  margin-right: 10%;
+}
+main{
+  padding: 40pX;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+table{
+  width: 100%;
+}
+#two {
+ background-color: hsl(257.84deg 38.95% 18.63%);
+ text-align: center;
+ padding: 3px;
+ margin-top: 20px;
+ }
+ h2{
+  color:white;
+ }
+ td {
+  width: 50%;
+  padding: 10px;
+   text-align: left;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(238, 236, 243);
+}
+tr:nth-child(odd){
+    border: px solid black;
+  margin-top: 25px;
+}
+
+tr:nth-child(even) {
+  background-color: hsl(254.69deg 55.06% 82.55%);
+}
+footer>div{
+  float: left;
+  width: 50%;
+}
+footer{
+  padding: 100px;
+  background-color: #c6baeb;
+
+}
+footer>div#mail{
+  padding-right: 200px;
+  text-align: right;
+  font-size:large;
+}
+footer>div#phone{
+  padding-left: 200px;
+  font-size:large;
+}
+.fa-envelope{
+  color: white;
+  font-size: large;
+}
+.fa-phone{
+  color: white;
+  font-size: large;
+}
