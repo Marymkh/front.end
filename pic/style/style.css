@@ -1,0 +1,87 @@
+* {
+    direction: ltr;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: url(image/slider01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 800px;
+    margin: 0px auto;
+    position: relative;
+}
+
+div#caption {
+    position: absolute;
+    bottom: 20px;
+    font-size: 48px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#fa-forward {
+    position: absolute;
+    color: #000;
+    background-color: rgba(182, 76, 6, 0.4);
+    font-size: xx-large;
+    padding: 30px 30px;
+    right: 50px;
+    top: 350px;
+}
+
+#back {
+    position: absolute;
+    color: #000;
+    font-size: xx-large;
+    background-color: rgba(214, 96, 18, 0.4);
+    padding: 30px 30px;
+    left: 50px;
+    top: 350px;
+}
+#text{
+    position: absolute;
+    padding: 15px;
+    font-size: xx-large;
+    color: white;
+}
+
+section>span{
+    border-radius: 50%;
+    background-color: rgb(112, 113, 113);
+       display: inline-block;
+    cursor: pointer;
+    padding: 40px;
+    width: 15px;
+    height: 15px;
+    margin: 0px 2px;
+   }
+   section{
+    margin: 15px auto;
+    width: 12%;
+   }
+#first {
+    background-color: rgb(138, 143, 143);
+}
+
+#secend {
+    background-color: rgb(90, 94, 94);
+}
+
+#third {
+    background-color: rgb(54, 59, 59);
+}
+
+ #first:hover {
+  background-color:rgba(100, 100, 100, 3);
+}
+#secend:hover{
+    background-color:rgba(100, 100, 100, 0.8);
+}
+#third :hover{
+    background-color:rgba(100, 100, 100, 0.4);
+}
